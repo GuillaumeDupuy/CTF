@@ -7,7 +7,7 @@
 - camelCase
 
 ## Force brute
-[python](https://github.com/GuillaumeDupuy/scripts/ft_force_brute.py)
+[python](https://github.com/GuillaumeDupuy/42CTF/blob/main/scripts/ft_force_brute.py)
 ```py
 import hashlib
 
