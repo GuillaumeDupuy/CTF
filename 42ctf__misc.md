@@ -7,7 +7,7 @@
 - camelCase
 
 ## Force brute
-[python](https://github.com/GuillaumeDupuy/scripts/ft_force_brute.py)
+[python](https://github.com/GuillaumeDupuy/42CTF/blob/main/scripts/ft_force_brute.py)
 ```py
 import hashlib
 
@@ -26,12 +26,15 @@ for i in range(43):
                 print(s, res.hexdigest())
 ```
 ```sh
-$ python3 bf.py > bf.txt
-$ cat bf.txt | grep 55d91e
+$ python3 ft_force_brute.py > text.txt
+$ cat text.txt | grep 55d91e
 . . .
 55d91e34650fd1a804cd94f5f39b34fb _
 . . .
 ```
+flag : ``
+21Iliad18Elisa
+``
 
 ## smiley
 ```scala

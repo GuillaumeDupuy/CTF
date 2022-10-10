@@ -50,7 +50,6 @@ flag : `
 you're_ready_for_the_real_world
 `
 
-
 ## Very Short Crypto
 ```sh
 #!/bin/bash

