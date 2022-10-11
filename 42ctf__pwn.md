@@ -18,6 +18,7 @@ Gimme a trusted input plz:
 sh: 1: ??1?I??^H??H???PTI???@: not found
 . . .
 ```
+
 ## Stack leak
 ```r
 $ nc challenges.42ctf.org 3006

