@@ -14,7 +14,7 @@ hidden_flag
 
 ## Conspiracy Theory
 
-Use zsteg the file 
+Use zsteg to the file and select the first letter of each row
 
 ```sh
 zsteg CLASSIFIED.png
