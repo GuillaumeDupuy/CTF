@@ -50,7 +50,3 @@ do_not_use_monoalphabetic_substitution
 flag : ``
 you're_ready_for_the_real_world
 ``
-
-## Very Short Crypto
-
-###### then decode using E (Small E attack) [dcode.fr/rsa-cipher](https://www.dcode.fr/rsa-cipher)

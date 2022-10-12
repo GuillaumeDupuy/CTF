@@ -22,7 +22,7 @@ flag : ``
 ``
 
 ## Force brute
-[python](https://github.com/GuillaumeDupuy/42CTF/blob/main/scripts/ft_force_brute.py)
+[python](https://github.com/GuillaumeDupuy/CTF/blob/main/42CTF/scripts/ft_force_brute.py)
 
 ```sh
 $ python3 ft_force_brute.py > text.txt
@@ -34,12 +34,3 @@ $ cat text.txt | grep 55d91e
 flag : ``
 21Iliad18Elisa
 ``
-
-## smiley
-```scala
-$ file _
-$ strings _
-$ nm _
-$ objdump -p _
-$ xxd ./smiley | head
-```
