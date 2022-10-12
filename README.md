@@ -17,5 +17,8 @@
 
 ## Statistiques
 
+- CTFLearn
 <img src="files/Stats_CTFLearn.png" alt="Statistiques" width="300px"/>
+
+- 42CTF
 <img src="files/Stats_42CTF.png" alt="Statistiques" width="300px"/>
