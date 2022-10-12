@@ -17,4 +17,5 @@
 
 ## Statistiques
 
-<img src="files/Stats.png" alt="Statistiques"/>
+<img src="files/Stats_CTFLearn.png" alt="Statistiques" width="100px"/>
+<img src="files/Stats_42CTF.png" alt="Statistiques" width="100px"/>
