@@ -22,10 +22,10 @@ flag : ``
 ``
 
 ## Force brute
-[python](https://github.com/GuillaumeDupuy/CTF/blob/main/42CTF/scripts/ft_force_brute.py)
+[python](https://github.com/GuillaumeDupuy/CTF/blob/main/42CTF/scripts/force_brute.py)
 
 ```sh
-$ python3 ft_force_brute.py > text.txt
+$ python3 force_brute.py > text.txt
 $ cat text.txt | grep 55d91e
 . . .
 55d91e34650fd1a804cd94f5f39b34fb _
@@ -34,3 +34,14 @@ $ cat text.txt | grep 55d91e
 flag : ``
 21Iliad18Elisa
 ``
+
+## Smiley
+
+```sh
+$ ./smiley
+$ 42CTF{}
+$ could you give me a hint please??
+```
+```
+xxd ./smiley | head
+```
