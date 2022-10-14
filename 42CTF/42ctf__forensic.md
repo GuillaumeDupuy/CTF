@@ -7,7 +7,7 @@ cl4ss1c_d1sk_f0r3ns1x
 ``
 
 # S3CR3T M3SS4G3
-[python](https://github.com/GuillaumeDupuy/CTF/blob/main/42CTF/scripts/find_wireshark.py)
+[python scripts](https://github.com/GuillaumeDupuy/CTF/blob/main/42CTF/scripts/find_wireshark.py)
 
 ```sh
 $ python3 find_wireshark.py

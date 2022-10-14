@@ -22,7 +22,7 @@ flag : ``
 ``
 
 ## Force brute
-[python](https://github.com/GuillaumeDupuy/CTF/blob/main/42CTF/scripts/force_brute.py)
+[python scripts](https://github.com/GuillaumeDupuy/CTF/blob/main/42CTF/scripts/force_brute.py)
 
 ```sh
 $ python3 force_brute.py > text.txt

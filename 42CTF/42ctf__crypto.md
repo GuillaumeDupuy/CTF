@@ -50,3 +50,16 @@ do_not_use_monoalphabetic_substitution
 flag : ``
 you're_ready_for_the_real_world
 ``
+
+
+## Very Short Crypto
+
+[shell scripts](https://github.com/GuillaumeDupuy/CTF/blob/main/42CTF/scripts/find_rsa.sh)
+
+Now go to the dcode site and enter the value of C.txt on the first, enter the value of N.txt in the third and click on Calculate/Decrypt. (if Public Key E is empty, enter the default : 65537)
+
+###### then decode using E (Small E attack) [dcode.fr/rsa-cipher](https://www.dcode.fr/rsa-cipher)
+
+flag : ``
+thisMessageIsDefinitely2short2BeSecure
+``
