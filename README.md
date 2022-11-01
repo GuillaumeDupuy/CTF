@@ -30,4 +30,14 @@
 <img src="files/Stats_RootMe.png" alt="Statistiques" width="500px"/>
 
 <!--ROOTME-->
+```text
+
+🧑‍💻 Name:
+Varius
+📈 Number Points:
+325
+🥇 Ranking:
+36141
+✅ Number of Challenges Finish:
+17```
 <!--/ROOTME-->
