@@ -23,6 +23,7 @@ if start == -1 or end == -1:
 
 partOne = lines[:start+1]
 conttemp = lines[start+1:end]
+partTwo = lines[end:]
 
 # Get the API_KEY
 API_KEY = os.environ.get('API_KEY')
@@ -40,7 +41,7 @@ if resp.status_code != 200:
 # Get the data
 data = resp.json()
 
-info = ["``text\n"]
+info = ["``text\n","\n"]
 
 info.append("🧑‍💻 Name: "+data["nom"]+"\n")
 
@@ -56,7 +57,7 @@ if conttemp == info:
     print("No change in README.md")
     exit(0)
 
-result = partOne + info
+result = partOne + info + partTwo
 readmefile=open('README.md','w')
 readmefile.writelines(result)
 readmefile.close()
