@@ -52,7 +52,7 @@ info.append(data["score"])
 info.append("\n")
 
 info.append("🥇 Ranking:\n")
-info.append(data["position"])
+info.append(str(data["position"]))
 info.append("\n")
 
 info.append("✅ Number of Challenges Finish:\n")
