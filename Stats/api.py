@@ -23,7 +23,6 @@ if start == -1 or end == -1:
 
 partOne = lines[:start+1]
 conttemp = lines[start+1:end]
-partTwo = lines[end:]
 
 # Get the API_KEY
 API_KEY = os.environ.get('API_KEY')
@@ -43,20 +42,13 @@ data = resp.json()
 
 info = ["```text\n","\n"]
 
-info.append("🧑‍💻 Name:\n")
-info.append(data["nom"])
-info.append("\n")
+info.append("🧑‍💻 Name: "+data["nom"]+"\n")
 
-info.append("📈 Number Points:\n")
-info.append(data["score"])
-info.append("\n")
+info.append("📈 Number Points: "+str(data["score"])+"\n")
 
-info.append("🥇 Ranking:\n")
-info.append(str(data["position"]))
-info.append("\n")
+info.append("🥇 Ranking: "+str(data["position"])+"\n")
 
-info.append("✅ Number of Challenges Finish:\n")
-info.append(str(len(data["validations"])))
+info.append("✅ Number of Challenges Finish: "+str(len(data["validations"]))+"\n")
 
 info.append("```\n")
 
@@ -64,7 +56,7 @@ if conttemp == info:
     print("No change in README.md")
     exit(0)
 
-result = partOne + info + partTwo
+result = partOne + info
 readmefile=open('README.md','w')
 readmefile.writelines(result)
 readmefile.close()
