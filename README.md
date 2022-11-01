@@ -28,3 +28,6 @@
 
 - RootMe
 <img src="files/Stats_RootMe.png" alt="Statistiques" width="500px"/>
+
+<!--ROOTME-->
+<!--/ROOTME-->
