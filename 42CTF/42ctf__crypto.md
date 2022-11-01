@@ -39,18 +39,26 @@ c t f
 
 42┼¿¤{®±_╝±¿_╔═║_©±╝±╣╬Ø¥╣█║¿╗┼_═╔█═¿╗¿╔¿╗±╝}
 ⚠️ UpperCase
+
+<details>
+<summary markdown="span">Answer</summary>
+
 flag : ``
 do_not_use_monoalphabetic_substitution
 ``
+</details>
 
 ## Vous n'avez pas les bases
 - use [gchq](http://gchq.github.io/CyberChef)
   - Recipe From Base64, From Base32 and From Hex
 
+<details>
+<summary markdown="span">Answer</summary>
+
 flag : ``
 you're_ready_for_the_real_world
 ``
-
+</details>
 
 ## Very Short Crypto
 
@@ -60,6 +68,10 @@ Now go to the dcode site and enter the value of C.txt on the first, enter the va
 
 ###### then decode using E (Small E attack) [dcode.fr/rsa-cipher](https://www.dcode.fr/rsa-cipher)
 
+<details>
+<summary markdown="span">Answer</summary>
+
 flag : ``
 thisMessageIsDefinitely2short2BeSecure
 ``
+</details>

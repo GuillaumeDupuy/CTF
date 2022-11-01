@@ -5,9 +5,13 @@ or
 or 
 - google `cse.buffalo.edu password 2007`, click in the site `20070121-howtoaccessreadings.txt`
 
+<details>
+<summary markdown="span">Answer</summary>
+
 flag : ``
 Rapaport
 ``
+</details>
 
 ## Norminet
 - existfool `Image Description`
@@ -17,9 +21,13 @@ Rapaport
     - job at school in the badge
 - camelCase
 
+<details>
+<summary markdown="span">Answer</summary>
+
 flag : ``
 020317-42norminet-executiveCat
 ``
+</details>
 
 ## Force brute
 [python scripts](https://github.com/GuillaumeDupuy/CTF/blob/main/42CTF/scripts/force_brute.py)
@@ -31,17 +39,23 @@ $ cat text.txt | grep 55d91e
 55d91e34650fd1a804cd94f5f39b34fb _
 . . .
 ```
+<details>
+<summary markdown="span">Answer</summary>
+
 flag : ``
 21Iliad18Elisa
 ``
+</details>
 
 ## Smiley
 
-```sh
+In Progress
+
+<!-- ```sh
 $ ./smiley
 $ 42CTF{}
 $ could you give me a hint please??
 ```
 ```
 xxd ./smiley | head
-```
+``` -->
