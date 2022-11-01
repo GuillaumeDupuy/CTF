@@ -2,6 +2,7 @@
 
 - CTFLearn
   - [Forensic](https://github.com/GuillaumeDupuy/CTF/blob/main/CTFLearn/CTFLearn__forensic.md) . 
+  - [Crypto](https://github.com/GuillaumeDupuy/CTF/blob/main/CTFLearn/CTFLearn__Crypto.md) .
 
 - 42CTF
   - [-Intro-](https://github.com/GuillaumeDupuy/CTF/blob/main/42CTF/42ctf__intro.md) . 
@@ -21,13 +22,28 @@
 ## Statistiques
 
 - CTFLearn
+
+```text
+🧑‍💻 Name: Varius
+📈 Number Points: 670
+🥇 Ranking: 6603
+✅ Number of Challenges Finish: 21
+```
+
 <img src="files/Stats_CTFLearn.png" alt="Statistiques" width="300px"/>
 
 - 42CTF
+
+```text
+🧑‍💻 Name: Varius
+📈 Number Points: 360
+🥇 Ranking: 40
+✅ Number of Challenges Finish: 21
+```
+
 <img src="files/Stats_42CTF.png" alt="Statistiques" width="300px"/>
 
 - RootMe
-<img src="files/Stats_RootMe.png" alt="Statistiques" width="500px"/>
 
 <!--ROOTME-->
 ```text
@@ -37,3 +53,5 @@
 ✅ Number of Challenges Finish: 17
 ```
 <!--/ROOTME-->
+
+<img src="files/Stats_RootMe.png" alt="Statistiques" width="500px"/>
