@@ -56,7 +56,7 @@ info.append(data["position"])
 info.append("\n")
 
 info.append("✅ Number of Challenges Finish:\n")
-info.append(len(data["validations"]))
+info.append(str(len(data["validations"])))
 
 info.append("```\n")
 
