@@ -31,7 +31,6 @@
 
 <!--ROOTME-->
 ``text
-
 🧑‍💻 Name: Varius
 📈 Number Points: 325
 🥇 Ranking: 36141

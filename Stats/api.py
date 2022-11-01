@@ -41,7 +41,7 @@ if resp.status_code != 200:
 # Get the data
 data = resp.json()
 
-info = ["``text\n","\n"]
+info = ["```text\n"]
 
 info.append("🧑‍💻 Name: "+data["nom"]+"\n")
 
@@ -51,7 +51,7 @@ info.append("🥇 Ranking: "+str(data["position"])+"\n")
 
 info.append("✅ Number of Challenges Finish: "+str(len(data["validations"]))+"\n")
 
-info.append("``\n")
+info.append("```\n")
 
 if conttemp == info:
     print("No change in README.md")
