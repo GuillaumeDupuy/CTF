@@ -238,6 +238,8 @@ CTF{I_AM_PROUD_OF_YOU}
 
 # Tone dialing
 
+We have a wav file. Open it, the sound is like when pressing phone numbers. So, use [Dtmf](https://unframework.github.io/dtmf-detect/#/) tool to recover the number : ``67847010810197110123678289808479718265807289125``. Change the string number to text and you have the flag
+
 <details>
 
 <summary markdown="span">Answer</summary>
