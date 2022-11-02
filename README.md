@@ -26,9 +26,9 @@
 
 ```text
 🧑‍💻 Name: Varius
-📈 Number Points: 670
-🥇 Ranking: 6603
-✅ Number of Challenges Finish: 21
+📈 Number Points: 1760
+🥇 Ranking: 1326
+✅ Number of Challenges Finish: 43
 ```
 
 <img src="files/Stats_CTFLearn.png" alt="Statistiques" width="300px"/>

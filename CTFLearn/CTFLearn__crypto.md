@@ -261,3 +261,65 @@ flag :``
 ALEXCTF{HERE_GOES_THE_KEY}
 ``
 </details>
+
+# ALEXCTF CR2: Many time secrets
+
+Use [python scripts](https://github.com/GuillaumeDupuy/CTF/blob/main/CTFLearn/scripts/symbdec.py)
+
+And you can see this is encoded in decimal. To decode this use [Cyberchef](https://gchq.github.io/CyberChef/) from Decimal
+
+<details>
+
+<summary markdown="span">Answer</summary>
+
+flag :``
+CTF{Star_._Wars_._For_._Life}
+``
+</details>
+
+# The Simpsons
+
+Use [python scripts](https://github.com/GuillaumeDupuy/CTF/blob/main/CTFLearn/scripts/simpsons.py)
+
+You can see, the string encoded is ``jrjerwhzkrexar`` and the content of the key is ``How much did Maggie originally cost? (Divided by 8, to the nearest integer, and then plus four)``
+
+So it's a hint, what's the price of Maggie ? Google knows everything, the price is *847,63 $*
+
+Now let's go follow the hint : 
+
+``847,63 / 8 = 105,95``
+
+We take the nearest integer:
+
+``106``
+
+We add 4:
+
+``106+4=110``
+
+But don't forget that we had a chr() around the solution, so:
+
+``chr(110) = 'n'``
+
+As we know key='n', let's move on. I copied the line as it was in python and run:
+
+``python
+key = key + key + chr(ord(key)-4)
+key = 'nnj'
+``
+
+Now, you know :
+
+``encoded = "jrjerwhzkrexar"
+key = "nnj"``
+
+Use [Dcode](https://www.dcode.fr/vigenere-cipher) Vigenere Cipher 
+
+<details>
+
+<summary markdown="span">Answer</summary>
+
+flag :``
+wearenumberone
+``
+</details>
