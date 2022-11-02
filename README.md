@@ -2,7 +2,8 @@
 
 - CTFLearn
   - [Forensic](https://github.com/GuillaumeDupuy/CTF/blob/main/CTFLearn/CTFLearn__forensic.md) . 
-  - [Crypto](https://github.com/GuillaumeDupuy/CTF/blob/main/CTFLearn/CTFLearn__Crypto.md) .
+  - [Crypto](https://github.com/GuillaumeDupuy/CTF/blob/main/CTFLearn/CTFLearn__crypto.md) .
+  - [Misc](https://github.com/GuillaumeDupuy/CTF/blob/main/CTFLearn/CTFLearn__misc.md) . 
 
 - 42CTF
   - [-Intro-](https://github.com/GuillaumeDupuy/CTF/blob/main/42CTF/42ctf__intro.md) . 
