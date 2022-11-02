@@ -29,7 +29,7 @@ chatelet15h
 
 # Steganomobile
 
-Use [dcode.fr/code-multitap-abc](https://www.dcode.fr/code-multitap-abc) for decoding 
+Use [Dcode](https://www.dcode.fr/code-multitap-abc) for decoding 
 
 <details>
 <summary markdown="span">Answer</summary>
@@ -77,7 +77,7 @@ flag :``
 
 # Poem from Space
 
-Use the Whitespace Language decoding tool to decode on site [dcode.fr/langage-whitespace](https://www.dcode.fr/langage-whitespace)
+Use the Whitespace Language decoding tool to decode on site [Dcode](https://www.dcode.fr/langage-whitespace)
 
 <details>
 <summary markdown="span">Answer</summary>
@@ -203,7 +203,8 @@ For the step 1, use [Stegonline](https://stegonline.georgeom.net/upload) or Steg
 Password step2 : ``
 f1rstStepi5DoN3
 ``
-At the end of README#2, you see a hex string can be unhashed using the tool at [hashes](https://hashes.com/en/decrypt/hash). And you discover a string, is the extract password of monster.waw
+
+At the end of README#2, you see a hex string can be unhashed using the tool at [Hashes](https://hashes.com/en/decrypt/hash). And you discover a string, is the extract password of monster.waw
 
 ```sh
 steghide extract -sf monster.wav -p meowmeowmeowmeow
@@ -217,7 +218,7 @@ s3c0nDSt3pIsAls0D0n3
 
 On the third step, you have so many informations :
 
-- On the LICENSE.md you can find a brainfuck can be decoded using the tool at [dcode](https://www.dcode.fr/langage-brainfuck)
+- On the LICENSE.md you can find a brainfuck can be decoded using the tool at [Dcode](https://www.dcode.fr/langage-brainfuck)
 - On the index.html, you have the hint : ``You just have to know that the hidden message is not using numbers ! You have to skip them :) ``
 and ``"Do you know the difference between a "C" and a "c" ? ... It could help you !"``
 - And the README file : ``QRCode - It's very funny to hide a QRCode in a picture ... you just have to apply 1-LSB on a pixel color to hide it ...``
