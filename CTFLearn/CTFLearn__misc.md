@@ -151,3 +151,15 @@ flag :``
 Flag{byt3_sw4p}
 ``
 </details>
+
+# Rock Paper Scissors 2
+
+Use [python scripts](https://github.com/GuillaumeDupuy/CTF/blob/main/CTFLearn/scripts/RockPaperScissors2.py)
+
+<details>
+<summary markdown="span">Answer</summary>
+
+flag :``
+CTFlearn{m3rs3nn3_kind4_c00l}
+``
+</details>
