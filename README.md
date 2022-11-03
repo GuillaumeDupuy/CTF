@@ -27,9 +27,9 @@
 <!--CTFLEARN-->
 ```text
 🧑‍💻 Name: GuillaumeDupuy
-📈 Number Points: 1950 
-🥇 Ranking: 1079
-✅ Number of Challenges Finish: 74
+📈 Number Points: 2570 
+🥇 Ranking: 610
+✅ Number of Challenges Finish: 43
 ```
 <!--/CTFLEARN-->
 
