@@ -29,11 +29,11 @@
 🧑‍💻 Name: GuillaumeDupuy
 📈 Number Points: 1950 
 🥇 Ranking: 1079
-✅ Number of Challenges Finish: 43
+✅ Number of Challenges Finish: 74
 ```
 <!--/CTFLEARN-->
 
-<img src="files/Stats_CTFLearn.png" alt="Statistiques" width="300px"/>
+<img src="files/Stats_CTFLearn.png" alt="Statistiques" width="400px"/>
 
 - 42CTF
 
@@ -57,4 +57,4 @@
 ```
 <!--/ROOTME-->
 
-<img src="files/Stats_RootMe.png" alt="Statistiques" width="500px"/>
+<img src="files/Stats_RootMe.png" alt="Statistiques" width="650px"/>

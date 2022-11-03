@@ -340,18 +340,78 @@ CTFlearn{If_y0u_r3/\d_thi5_you_pa553d}
 ``
 </details>
 
-<!-- # abandoned place
+# abandoned place
+
+Use `exiftool`, you see `Image Width`and the `Image Height`. Convert the decimal in hex, so now we will try to make the image same dimensions. Use [Hexed](https://hexed.it/), search `03 84`and replace by `07 E0` and save the file. Now open the file and you see the flag
+
+<details>
+<summary markdown="span">Answer</summary>
+
+flag :``
 CTFlearn{urban_exploration}
-https://github.com/SanketBaraiya/CTFlearn-Solutions/tree/main/abandoned%20place
+``
+</details>
+
+# The adventures of Boris Ivanov. Part 1
+
+Use `stegslove`, one of his option is Stereogram Solver and in this option there are 1000 offsets possible. You found the flag in offset 898.
+
+<details>
+<summary markdown="span">Answer</summary>
+
+flag :``
+flag{d0nt_m3s5_w1th_th3_KGB}
+``
+</details>
+
+# HailCaesar
+
+Use [python scripts](https://github.com/GuillaumeDupuy/CTF/blob/main/CTFLearn/scripts/asciicipher.py)
+
+<details>
+<summary markdown="span">Answer</summary>
+
+flag :``
+CTFlearn{Maximus.Decimus.Meridius}
+``
+</details>
 
 # Seeing is believing
+
+Use Audacity and select spectogramme to see the QRCode, scan
+
+<details>
+<summary markdown="span">Answer</summary>
+
+flag :``
 the_flag_is{A_sP3c7r0grAm?!}
-https://github.com/SanketBaraiya/CTFlearn-Solutions/tree/main/Seeing%20is%20believing
+``
+</details>
 
 # Smiling ASCII
+
+Use `zsteg` to the file
+
+```sh
+zsteg --all smiling.png
+```
+
+<details>
+<summary markdown="span">Answer</summary>
+
+flag :``
 CTFlearn{ascii_pixel_flag}
-https://github.com/SanketBaraiya/CTFlearn-Solutions/tree/main/Smiling%20ASCII
+``
+</details>
 
 # The Keymaker
+
+
+
+<details>
+<summary markdown="span">Answer</summary>
+
+flag :``
 CTFlearn{Ne0.TheMatrix}
-https://github.com/SanketBaraiya/CTFlearn-Solutions/tree/main/The%20Keymaker -->
+``
+</details>
