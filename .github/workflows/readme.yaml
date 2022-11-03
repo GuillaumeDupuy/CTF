@@ -8,7 +8,7 @@ on:
 
 jobs:
 
-  Rootme:
+  Ctflearn:
     runs-on: ubuntu-latest
 
     steps:
@@ -23,6 +23,24 @@ jobs:
         if [ -f Stats/requirements.txt ]; then pip install -r Stats/requirements.txt; fi
     - name: run python
       run: |
-        python Stats/api.py
+        python Stats/ctflearn.py
+
+  Rootme:
+    needs: ["Ctflearn"]
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Set up Python 3.10
+      uses: actions/setup-python@v3
+      with:
+        python-version: "3.10"
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        if [ -f Stats/requirements.txt ]; then pip install -r Stats/requirements.txt; fi
+    - name: run python
+      run: |
+        python Stats/rootme.py
       env : 
         API_KEY : ${{ secrets.API_KEY }}

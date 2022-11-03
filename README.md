@@ -24,12 +24,14 @@
 
 - CTFLearn
 
+<!--CTFLEARN-->
 ```text
 🧑‍💻 Name: Varius
-📈 Number Points: 1760
-🥇 Ranking: 1326
+📈 Number Points: 1950 
+🥇 Ranking: 1079
 ✅ Number of Challenges Finish: 43
 ```
+<!--/CTFLEARN-->
 
 <img src="files/Stats_CTFLearn.png" alt="Statistiques" width="300px"/>
 

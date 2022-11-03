@@ -24,7 +24,7 @@ ABCTF{T3Rm1n4l_is_C00l}
 
 # Binwalk
 
-Use binwalk extract to recover the png file with the file
+Use `binwalk` extract to recover the png file with the file
 
 <details>
 <summary markdown="span">Answer</summary>
@@ -36,7 +36,7 @@ ABCTF{b1nw4lk_is_us3ful}
 
 # WOW.... So Meta
 
-`exiftool ` the file
+Use `exiftool ` the file
 
 <details>
 <summary markdown="span">Answer</summary>
@@ -131,6 +131,7 @@ Use ``strings`` file
 
 flag :``
 CTFlearn{fl4ggyfl4g}
+``
 </details>
 
 # Chalkboard
@@ -148,7 +149,7 @@ CTFlearn{I_Like_Math_2_5}
 # Tux!
 
 Use ``strings`` file, select the strings in base64 and convert into string. You have a password
-Use binwalk to extract and use the password for open the file of the flag
+Use `binwalk` to extract and use the password for open the file of the flag
 
 <details>
 <summary markdown="span">Answer</summary>
@@ -172,7 +173,7 @@ flag{AFlaginPCAP}
 
 # Milk's Best Friend
 
-Use binwalk to extract png file and use ``strings`` on the png extracted
+Use `binwalk` to extract png file and use ``strings`` on the png extracted
 
 <details>
 <summary markdown="span">Answer</summary>
@@ -208,7 +209,7 @@ PApdsjRTae
 
 # Naughty Cat
 
-Use binwalk to extract the rar and mp3 file. Open the rar with [Hexed](https://hexed.it/) to repair the error file and replace the signature file. Now use Audacity and select spectogramme to see the password of the txt file in the rar. Recover the encoded string in base64 and convert to recover the flag
+Use `binwalk` to extract the rar and mp3 file. Open the rar with [Hexed](https://hexed.it/) to repair the error file and replace the signature file. Now use Audacity and select spectogramme to see the password of the txt file in the rar. Recover the encoded string in base64 and convert to recover the flag
 
 <details>
 <summary markdown="span">Answer</summary>
@@ -260,3 +261,97 @@ flag :``
 CTFlearn{I_Love_Pho!!!}
 ``
 </details>
+
+# Simple Steganography
+
+Use ``strings`` in the file, recover the password. Use ``steghide`` to extract the file
+
+``sh
+steghide extract -sf Minions1.jpeg -p myadmin
+``
+
+Recover the strings and decode by base64
+
+<details>
+<summary markdown="span">Answer</summary>
+
+flag :``
+CTFlearn{this_is_fun}
+``
+</details>
+
+# Minions 
+
+Use ``strings`` in the file, click on the link, download the new image. Use `binwalk` to extract the image. 
+
+``sh
+strings YouWon\(Almost\).jpg | grep -i "CTF"
+``
+
+Recover the flag encoded in base64, use [CyberChef](https://gchq.github.io/CyberChef/) fourth time and you have the flag
+
+<details>
+<summary markdown="span">Answer</summary>
+
+flag :``
+CTFlearn{M1NI0NS_ARE_C00L}
+``
+</details>
+
+# PDF by fdpumyp 
+
+Use ``strings`` in the file. Recover the flag encoded in base64, use [CyberChef](https://gchq.github.io/CyberChef/) from Base64
+
+<details>
+<summary markdown="span">Answer</summary>
+
+flag :``
+CTFlearn{M1NI0NS_ARE_C00L}
+``
+</details>
+
+# GandalfTheWise
+
+Use ``exiftool``, recover the comments encoded in the base64, use [CyberChef](https://gchq.github.io/CyberChef/). If you try to submit the flag, it will not accept but it does give us a hint : XOR.
+
+So for that we still have 2 more comments. If you will decode the two base64 string we will get some unicode text so we now know we have to use that decoded strings and perform XOR on that strings. Use [python scripts](https://github.com/GuillaumeDupuy/CTF/blob/main/CTFLearn/scripts/gandalf.py)
+
+<details>
+<summary markdown="span">Answer</summary>
+
+flag :``
+CTFlearn{Gandalf.BilboBaggins}
+``
+</details>
+
+# Blank Page
+
+The txt is empty, if you check the file in [Hexed](https://hexed.it/), you see the txt file contains only `.`and `[space]`. Maybe is morse code but not because the morse code is `.`and `-`, so it binary where . represents 1 and [space] represents 0.
+
+Use [python scripts](https://github.com/GuillaumeDupuy/CTF/blob/main/CTFLearn/scripts/binary.py)
+
+Recover the binary and use [CyberChef](https://gchq.github.io/CyberChef/) from Binary
+
+<details>
+<summary markdown="span">Answer</summary>
+
+flag :``
+CTFlearn{If_y0u_r3/\d_thi5_you_pa553d}
+``
+</details>
+
+<!-- # abandoned place
+CTFlearn{urban_exploration}
+https://github.com/SanketBaraiya/CTFlearn-Solutions/tree/main/abandoned%20place
+
+# Seeing is believing
+the_flag_is{A_sP3c7r0grAm?!}
+https://github.com/SanketBaraiya/CTFlearn-Solutions/tree/main/Seeing%20is%20believing
+
+# Smiling ASCII
+CTFlearn{ascii_pixel_flag}
+https://github.com/SanketBaraiya/CTFlearn-Solutions/tree/main/Smiling%20ASCII
+
+# The Keymaker
+CTFlearn{Ne0.TheMatrix}
+https://github.com/SanketBaraiya/CTFlearn-Solutions/tree/main/The%20Keymaker -->
