@@ -143,7 +143,6 @@ CTFlearn{s0_n0W_y0uv3_M3t_J0hN}
 
 Use [python scripts](https://github.com/GuillaumeDupuy/CTF/blob/main/CTFLearn/scripts/hexdump.py) to rearrange the bytes of the flag
 
-
 <details>
 
 <summary markdown="span">Answer</summary>

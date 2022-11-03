@@ -406,12 +406,116 @@ CTFlearn{ascii_pixel_flag}
 
 # The Keymaker
 
+Fire `file The-Keymaker.jpg` in the terminal.
+So we can see there are two base64 strings in the comments. So we will decode that one by one with [CyberChef](https://gchq.github.io/CyberChef/).
 
+So we found the string `openssl enc -d -aes-256-cbc -iv SOF0 -K SOS -in flag.enc`. So we now know that we need three things to decode flag
+
+```
+SOF0 (Start Of Frame) key,
+SOS (Start Of Scan) key and
+flag.enc file
+```
+Don't worry we will come to the point what is SOS and SOF0, first let us see what the second base64 string gives us.
+
+So we can see that it gives a Unicode Text. So this makes us understand this is our flag to be decoded so it is our `flag.enc` so we will store the contents in flag.enc.
+
+Fire `echo mmtaSHhAsK9pLMepyFDl37UTXQT0CMltZk7+4Kaa1svo5vqb6JuczUqQGFJYiycY | base64 -d > flag.enc` in the terminal.
+
+Now we need `SOS key` and `SOF0 key`. First We will find out where is the starting of SOS & SOF0 Key.
+
+For SOS
+```
+SOS
+  start of scan
+  0xFF 0xDA
+  Complicated. See below for details.
+```
+
+So we know SOS starts as ``0xFF 0xDA``. So we will open the The-Keymaker.jpg in hex editor like [Hexed](https://hexed.it/) and select 32 bits after the start of SOS as the size of SOS is 32 bits. Press Ctrl+f to find and search ``FF DA`` and copy 32 bits excluding ``FF DA``.
+
+Paste the 32 bits strings in any text editor and remove the spaces between them the resultant string would be:
+``000C03010002110311003F00F9766BFC44BEDA8F3F5C031B92CB0E92D6BDC952``
+
+Now we have to do the same with SOF0.
+
+For SOF0
+```
+SOF0 	
+  start of frame (baseline DCT)
+  0xFF 0xC0
+  Variable size. Typically 0x00 0x11 (17 bytes) for images with 3 components (e.g., YCrCb).
+```
+
+Now we know SOF0 starts as 0xFF 0xC0. Repeat the same and find for ``FF C0`` and copy the string till the next ``FF`` including ``FF C0`` and paste it in any text editor and remove ``FF C0 00 11`` from the pasted string as it defines the size of SOF0.
+
+The resultant string would be:
+``0800BE00C803011100021101031101FF``
+
+Now we have got all the things to decode our flag.enc. Now we will prepare the decoding statement by combining the keys.
+Fire this command in terminal :
+
+```sh
+openssl enc -d -aes-256-cbc -iv 0800BE00C803011100021101031101FF -K 000C03010002110311003F00F9766BFC44BEDA8F3F5C031B92CB0E92D6BDC952 -in flag.enc > flag.txt
+```
+
+Now we will see the content of flag.txt using cat.
 
 <details>
 <summary markdown="span">Answer</summary>
 
 flag :``
 CTFlearn{Ne0.TheMatrix}
+``
+</details>
+
+# Exclusive Santa
+
+Use `binwalk` extract on the two image file. On the 3.pn, you have a another image
+
+So now use `stegsolve` to combine the image 3.png with the image extracted
+
+<details>
+<summary markdown="span">Answer</summary>
+
+flag :``
+CTFlearn{Santa_1s_C0ming}
+``
+</details>
+
+# Dumpster
+
+So we have two files:
+
+- Decryptor.java.
+- Heapdump.hprof - The heap dump of the Decryptor.
+
+By looking on the Decrypt file we can see the encrypted flag stored in the variable FLAG.
+
+#### How to decrypt the flag ???
+We need to write some pass that will be encrypted with SHA-256, And the first 16 bytes will stored in variable **passHash**.
+
+The variable passHash would be the key in the AES decryption of FLAG after that.
+
+Ok, After we understood all the process , we only have one missing piece in the puzzle - how we get the **pass** !? The answer is the second file - **Heapdump.hpro**
+
+#### Heap dump memory analyzer
+The second file is a dump of the heap from the program as you can notice here:
+
+So we need to analyze the dump to catch where the user input the pass.
+We will use the program visualvm. Before we start i recommend to you to explore the dump by yourself and do a full analyze and exploring for good understanding.
+
+#### Analyze
+After analyze all the dump i have notice a problem to find the pass... But i find the passHash !!! By going to the main thread -> Decryptor$Password -> **passHash**
+
+Now that we have the passHash we can wirte a short program that would be decrypt the flag.
+
+You can find the [java scripts](https://github.com/GuillaumeDupuy/CTF/blob/main/CTFLearn/scripts/dumpster.java)
+
+<details>
+<summary markdown="span">Answer</summary>
+
+flag :``
+stCTF{h34p_6ump5_r_c00l!11!!}
 ``
 </details>
