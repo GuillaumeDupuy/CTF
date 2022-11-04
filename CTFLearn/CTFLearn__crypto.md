@@ -325,3 +325,18 @@ flag :``
 wearenumberone
 ``
 </details>
+
+# XOR Is Friend Not Food
+
+You have to find out the key to decode this XOR encryption : ``091b1100160b1d19170b051d280500351b1f092c0d00181c0e``, I use [python scripts](https://github.com/GuillaumeDupuy/CTF/blob/main/CTFLearn/scripts/cribdrag.py) to get the key.
+
+I saw at index 0 there were words that made sense, namely **jowls**, I thought that it was a key, so use [Dcode](https://www.dcode.fr/xor-cipher)
+
+<details>
+
+<summary markdown="span">Answer</summary>
+
+flag :``
+ctflearn{xor_is_the_goop}
+``
+</details>
