@@ -28,9 +28,11 @@
 <!--CTFLEARN-->
 ```text
 🧑‍💻 Name: GuillaumeDupuy
-📈 Number Points: 2760 
-🥇 Ranking: 508
-✅ Number of Challenges Finish: 74
+📈 Number Points: 3190 
+🥇 Ranking: 372nd place
+                        ·
+                        23 days
+✅ Number of Challenges Finish: 69
 ```
 <!--/CTFLEARN-->
 
