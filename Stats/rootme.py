@@ -58,6 +58,9 @@ if conttemp == info:
     exit(0)
 
 result = partOne + info + partTwo
+
+os.system('git pull')
+
 readmefile=open('README.md','w')
 readmefile.writelines(result)
 readmefile.close()
