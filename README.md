@@ -38,12 +38,14 @@
 
 - 42CTF
 
+<!--42CTF-->
 ```text
 🧑‍💻 Name: Varius
 📈 Number Points: 360
 🥇 Ranking: 40
 ✅ Number of Challenges Finish: 21
 ```
+<!--/42CTF-->
 
 <img src="files/Stats_42CTF.png" alt="Statistiques" width="300px"/>
 

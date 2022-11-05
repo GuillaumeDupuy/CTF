@@ -107,7 +107,7 @@ flag :``
 ``
 </details>
 
-# Mimic - Dummy sight
+# EXIF - Miniature
 
 We notice with binwalk that there is another image. So we'll extract it with the command
 
@@ -157,6 +157,8 @@ P3PoFRoG
 </details>
 
 # Crypt-art
+
+Use `strings` to discover the text encrypted.
 
 We must already find the key that was used to encode the text, we use [BertNase's Own](http://www.bertnase.de/npiet/npiet-execute.php). Once the key is discovered, we can decode the text on the site [Cryptii](https://cryptii.com/) and we paste our text, we select "Vigénère Cipher" and we copy our key
 

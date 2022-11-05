@@ -519,3 +519,27 @@ flag :``
 stCTF{h34p_6ump5_r_c00l!11!!}
 ``
 </details>
+
+# Mr.Bin
+
+Use [pyhton scripts](https://github.com/GuillaumeDupuy/CTF/blob/main/CTFLearn/scripts/convert.py)
+
+<details>
+<summary markdown="span">Answer</summary>
+
+flag :``
+CTFlearn{y0u_n4il3d_it}
+``
+</details>
+
+# Jakarta
+
+Use [pyhton scripts](https://github.com/GuillaumeDupuy/CTF/blob/main/CTFLearn/scripts/jakarta.py) and [CyberChef](https://gchq.github.io/CyberChef/) RSA Decrypt
+
+<details>
+<summary markdown="span">Answer</summary>
+
+flag :``
+CTFlearn{Jakarta_Ind0nes1a}
+``
+</details>

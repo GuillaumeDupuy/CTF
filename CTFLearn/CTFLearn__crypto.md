@@ -340,3 +340,29 @@ flag :``
 ctflearn{xor_is_the_goop}
 ``
 </details>
+
+# Linear-feedback. Shift. Register.
+
+Use [python scripts](https://github.com/GuillaumeDupuy/CTF/blob/main/CTFLearn/scripts/linearfeed.py)
+
+<details>
+
+<summary markdown="span">Answer</summary>
+
+flag :``
+CTFlearn{Lin34r_F33db4ck_Sh1fT_R3g1st3r}
+``
+</details>
+
+# We want Nudes instead of Nukes
+
+Use [python scripts](https://github.com/GuillaumeDupuy/CTF/blob/main/CTFLearn/scripts/nukes.py)
+
+<details>
+
+<summary markdown="span">Answer</summary>
+
+flag :``
+flag{2c1289a05847cfd65ecee8f7fe7efd66,8473dcb86bc12c6b6087619c00b6657e}
+``
+</details>
