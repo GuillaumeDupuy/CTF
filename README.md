@@ -46,8 +46,8 @@ Certainly these are solutions but these remain mine. Trying to succeed on your o
 <!--42CTF-->
 ```text
 🧑‍💻 Name: Varius
-📈 Number Points: 360
-🥇 Ranking: 40
+📈 Number Points: 345
+🥇 Ranking: 42
 ✅ Number of Challenges Finish: 21
 ```
 <!--/42CTF-->
