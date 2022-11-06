@@ -1,10 +1,15 @@
 # - Solutions CTF
 
+> __Note__
+Certainly these are solutions but these remain mine. Trying to succeed on your own is more rewarding
+
 - CTFLearn
   - [Forensic](https://github.com/GuillaumeDupuy/CTF/blob/main/CTFLearn/CTFLearn__forensic.md) . 
   - [Crypto](https://github.com/GuillaumeDupuy/CTF/blob/main/CTFLearn/CTFLearn__crypto.md) .
   - [Misc](https://github.com/GuillaumeDupuy/CTF/blob/main/CTFLearn/CTFLearn__misc.md) . 
   - [Programming](https://github.com/GuillaumeDupuy/CTF/blob/main/CTFLearn/CTFLearn__Prog.md) . 
+  - [Web](https://github.com/GuillaumeDupuy/CTF/blob/main/CTFLearn/CTFLearn__web.md) . 
+  - [Binary](https://github.com/GuillaumeDupuy/CTF/blob/main/CTFLearn/CTFLearn__binary.md) . 
 
 - 42CTF
   - [-Intro-](https://github.com/GuillaumeDupuy/CTF/blob/main/42CTF/42ctf__intro.md) . 
@@ -60,4 +65,5 @@
 ```
 <!--/ROOTME-->
 
+<img src="https://root-me-badge.cloud.duboc.xyz/storage_clients/e7f3b29af6f3e2a151b04e83e491e6f5/static_badge_dark.png" width="200px"/>
 <img src="files/Stats_RootMe.png" alt="Statistiques" width="650px"/>
