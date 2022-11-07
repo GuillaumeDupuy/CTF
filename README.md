@@ -65,5 +65,5 @@ Certainly these are solutions but these remain mine. Trying to succeed on your o
 ```
 <!--/ROOTME-->
 
-<img src="https://root-me-badge.cloud.duboc.xyz/storage_clients/e7f3b29af6f3e2a151b04e83e491e6f5/static_badge_dark.png" width="200px"/>
+<img src="https://root-me-badge.cloud.duboc.xyz/storage_clients/e7f3b29af6f3e2a151b04e83e491e6f5/static_badge_dark.png" width="200px" alt="Rootme Stats"/>
 <img src="files/Stats_RootMe.png" alt="Statistiques" width="650px"/>

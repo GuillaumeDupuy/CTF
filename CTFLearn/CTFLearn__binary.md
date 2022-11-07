@@ -96,3 +96,23 @@ flag :``
 xOr_mUsT_B3_1mp0rt4nT
 ``
 </details>
+
+# Shell time!
+
+Use [python scripts](https://github.com/GuillaumeDupuy/CTF/blob/main/CTFLearn/scripts/shell.py)
+
+Execute
+
+```sh
+python3 shell.py thekidofarcrania.com 4902
+```
+
+Write `cat flag2.txt` to get the flag
+
+<details>
+<summary markdown="span">Answer</summary>
+
+flag :``
+CTFlearn{c0ngrat1s_0n_th1s_sh3ll!_SKDJLSejf}
+``
+</details>
