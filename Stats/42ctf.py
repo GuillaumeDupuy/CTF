@@ -24,7 +24,7 @@ if start == -1 or end == -1:
 
 partOne = lines[:start+1]
 conttemp = lines[start+1:end]
-partTwo = lines[end:]
+# partTwo = lines[end:]
 
 url="https://www.42ctf.org/en/scoreboard/?page=3"
 response = requests.get(url)
@@ -33,19 +33,19 @@ soup = BeautifulSoup(response.text, "html.parser")
 # Get the name of user
 name = soup.find_all("a", {"class": "profile_link"})
 
-name = name[1].text.strip()
+name = name[2].text.strip()
 
 # Get the number of rank
 rank = soup.find_all("th", {"scope": "row"})
 
-rank = rank[1].text.strip()
+rank = rank[2].text.strip()
 
 rank = rank.split(" ")[1]
 
 # Get the number of points
 points = soup.find_all("td")
 
-points = points[5].text.strip()
+points = points[6].text.strip()
 
 points = points.split("<td>")[0]
 
