@@ -24,7 +24,7 @@ if start == -1 or end == -1:
 
 partOne = lines[:start+1]
 conttemp = lines[start+1:end]
-# partTwo = lines[end:]
+partTwo = lines[end:]
 
 url="https://www.42ctf.org/en/scoreboard/?page=3"
 response = requests.get(url)
