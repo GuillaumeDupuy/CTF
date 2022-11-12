@@ -35,9 +35,7 @@ Certainly these are solutions but these remain mine. Trying to succeed on your o
 ```text
 🧑‍💻 Name: Varius93
 📈 Number Points: 6170 
-🥇 Ranking: 72nd place
-                        ·
-                        31 days
+🥇 Ranking: 72
 ✅ Number of Challenges Finish: 125
 ```
 <!--/CTFLEARN-->
