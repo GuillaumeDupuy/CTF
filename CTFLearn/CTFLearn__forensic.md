@@ -543,3 +543,15 @@ flag :``
 CTFlearn{Jakarta_Ind0nes1a}
 ``
 </details>
+
+# Music To My Ears
+
+[Step for fix a corrupted file voice](http://sysfrontier.com/en/2014/12/31/hello-world/)
+
+<details>
+<summary markdown="span">Answer</summary>
+
+flag :``
+flag{1_c4n_f1x_it}
+``
+</details>

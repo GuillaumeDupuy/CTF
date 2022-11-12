@@ -366,3 +366,35 @@ flag :``
 flag{2c1289a05847cfd65ecee8f7fe7efd66,8473dcb86bc12c6b6087619c00b6657e}
 ``
 </details>
+
+# Polycrypto
+
+It just converting given polynomial function to binary which is : `110011001101100011000010110011101111011011100000011000001101100011110010110111001101111011011010011000101100001011011000111001101011111001101000111001000110011010111110110101100110000001100000110110001111101`
+
+After converting this binary to hexadecimal following hex string was obtained : `666C61677B70306C796E6F6D31616C735F3472335F6B30306C7D`
+
+After converting this hex to ascii the flag was retrieved. 
+
+<details>
+
+<summary markdown="span">Answer</summary>
+
+flag :``
+flag{p0lynom1als_4r3_k00l}
+``
+</details>
+
+# Skynet Is (Almost) Taking Over
+
+I factorize `n1` through [Factorize](http://factordb.com/) and got `p1` and `q1`
+
+Use [python scripts](https://github.com/GuillaumeDupuy/CTF/blob/main/CTFLearn/scripts/skynet.py)
+
+<details>
+
+<summary markdown="span">Answer</summary>
+
+flag :``
+flag{will_he_be_back}
+``
+</details>

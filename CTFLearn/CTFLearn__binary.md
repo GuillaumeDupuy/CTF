@@ -117,4 +117,38 @@ CTFlearn{c0ngrat1s_0n_th1s_sh3ll!_SKDJLSejf}
 ``
 </details>
 
-# Leak me
+# Jenny
+
+Check [youtube video](https://www.youtube.com/watch?v=no00Ec3YxXc)
+
+<details>
+<summary markdown="span">Answer</summary>
+
+flag :``
+N0w_1_kn0w_wh0_jen1_1s!11JNI_IS_SO_COOL!
+``
+</details>
+
+# Libraries
+
+Use [c scripts](https://github.com/GuillaumeDupuy/CTF/blob/main/CTFLearn/scripts/fakelib.c) and [makefile](https://github.com/GuillaumeDupuy/CTF/blob/main/CTFLearn/scripts/fake.mk)
+
+<details>
+<summary markdown="span">Answer</summary>
+
+flag :``
+CTF{JN1_1s_r3a77y_f4n!}
+``
+</details>
+
+# Poor Login
+
+Use [python scripts](https://github.com/GuillaumeDupuy/CTF/blob/main/CTFLearn/scripts/login.py)
+
+<details>
+<summary markdown="span">Answer</summary>
+
+flag :``
+CTFlearn{I_sh0uldve_done_a_ref_counter!!_:PPPPP}
+``
+</details>

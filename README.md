@@ -10,6 +10,7 @@ Certainly these are solutions but these remain mine. Trying to succeed on your o
   - [Programming](https://github.com/GuillaumeDupuy/CTF/blob/main/CTFLearn/CTFLearn__Prog.md) . 
   - [Web](https://github.com/GuillaumeDupuy/CTF/blob/main/CTFLearn/CTFLearn__web.md) . 
   - [Binary](https://github.com/GuillaumeDupuy/CTF/blob/main/CTFLearn/CTFLearn__binary.md) . 
+  - [Reverse](https://github.com/GuillaumeDupuy/CTF/blob/main/CTFLearn/CTFLearn__reverse.md) . 
 
 - 42CTF
   - [-Intro-](https://github.com/GuillaumeDupuy/CTF/blob/main/42CTF/42ctf__intro.md) . 
