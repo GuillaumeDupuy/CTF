@@ -36,7 +36,7 @@ name = soup.find("h5", {"class": "text-left font-weight-bold font-primary my-aut
 # Get the number of rank
 rank = soup.find("span", {"class": "font-primary mt-2"}).text.strip()
 
-rank = rank.split("nd")[0]
+rank = rank.split("th")[0]
 
 # Get the number of points
 points = soup.find("div", {"class": "stats mt-3"}).text.strip()
