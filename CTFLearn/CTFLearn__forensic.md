@@ -555,3 +555,129 @@ flag :``
 flag{1_c4n_f1x_it}
 ``
 </details>
+
+# Brute Force is Fun!
+
+Use [pyhton scripts](https://github.com/GuillaumeDupuy/CTF/blob/main/CTFLearn/scripts/brutepass.py) for recover the password of zip file : `ctflag48625`
+
+Unzip the `flag.zip` and `cat flag.txt | base64 -d` with decode base64
+
+<details>
+<summary markdown="span">Answer</summary>
+
+flag :``
+FLAG{may_the_brute_force_be_with_you}
+``
+</details>
+
+# Bobby Toe's iPad
+
+Check with `stegsolve` or `zsteg` in red plane mode 0, there is ciphertext
+
+After parsing with zsteg, it turns out that there are JPGs inside the PNGs, the JPGs are not detected by the avant and binwalk tools because the file contains an incorrect/incomplete header, add en headers to file. Use [Hexed](https://hexed.it/) to repair the error file and replace the signature file
+
+Use `foremost ` for extract the jpg file
+
+Decrypt obtained cipher text with stegsolve and key on vigenere cipher on [Cryptii](https://cryptii.com/) from Vigenere Cipher with encryptext : `zpv_tigqylhbafmeoesllpms` and key : `bbbabydonthurtmewhatislove`
+
+<details>
+<summary markdown="span">Answer</summary>
+
+flag :``
+you_thinkyougotskillshuh
+``
+</details>
+
+# QR-code inception
+
+If you pay attention to the middle of the black or white pixels, there is also a QR-Code Encode containing 1 string
+
+But here I solved it manually which took a long time using Android QR code reader and then I got the string : `iVBORw0KGgoAAAANSUhEUgAAACUAAAAlAQAAAADt5R2uAAAAsUlEQVR4nGP4DwQ/GDDJD9IGDhUM369x3q9g+BJgdBFIRvQEAsnwKUD290uzgOIfREOBav5/jgSq/3T2sQtQb865mgqGn46fGn4wfLE/eqaC4VN/1jkgmVFdBdR7sripguGPMrfeD4ZvUhO1fjD8+P73JlAl58YDQPEfGxf/YPjuFcQINPOLSRHQDULCQUCRG6olQL0xh9lBLpkXAVQfM6sU6IYrr78B1Yga2mFzP5gEAB2SgeETXS+JAAAAAElFTkSuQmCC`
+
+Turns out the base64 encoding, if decoded it's a small PNG, decodes the string as a file and the resul
+
+<img src="../files/QRcode.png" alt="QR Code" width="100px"/>
+
+<details>
+<summary markdown="span">Answer</summary>
+
+flag :``
+CTFlearn{Y0u_4re_in_QR-cOd3_l1mb0}
+``
+</details>
+
+# ShahOfGimli
+
+Look at the comments file with `Exiftool`, there are many base64 encodings and check them one by one
+
+There is a hint in the form of a key it's sha256(CTFlearn) and related to AES_CBC, so for the 3rd comment if it's decoded it's encryption. Now let's try to decrypt the message
+
+Use [pyhton scripts](https://github.com/GuillaumeDupuy/CTF/blob/main/CTFLearn/scripts/shah.py)
+
+Use `binwalk` twice for extract the png file 
+
+Among the 3 flags obtained above there is a clue, namely the key is sha256 (Gimli file) and also in the JPG file there is still a flag.enc file which is still AES_CBC encrypted
+
+Decrypt the flag.enc file in the same way as the previous decryption method and decode the base64 encryption file first
+
+``sh 
+cat flag.enc | base64
+``
+
+``sh
+sha256sum Gimli04Base.jpg 
+``
+
+Use [pyhton scripts](https://github.com/GuillaumeDupuy/CTF/blob/main/CTFLearn/scripts/shah2.py)
+
+<details>
+<summary markdown="span">Answer</summary>
+
+flag :``
+CTFlearn{Gimli.Is.A.Warrior}
+``
+</details>
+
+# The Data Scientist
+
+Use [pyhton scripts](https://github.com/GuillaumeDupuy/CTF/blob/main/CTFLearn/scripts/data.py)
+
+You receive a hint, so we will replace all values ​​between 64 and 65 with black. And you obtained a QRcode so you will use an [4qrcode](https://4qrcode.com/scan-qr-code.php) or with the script below
+
+Use [pyhton scripts](https://github.com/GuillaumeDupuy/CTF/blob/main/CTFLearn/scripts/qrcode.py)
+
+<details>
+<summary markdown="span">Answer</summary>
+
+flag :``
+CTFlearn{m4ch1n3_l34rn1n9_rul35}
+``
+</details>
+
+# Noise?
+
+Analyze image files with the `zsteg` tool.
+
+We can see that there is a 250x287 PNG file on red LSB. Extract the file with the `stegsolve` tool as shown below and save it
+
+Then repeat the first step (`zsteg`) on the image you just got and continue up to 13 times, then the flag is in the last file
+
+<details>
+<summary markdown="span">Answer</summary>
+
+flag :``
+flag{n0t_n0ise_4ft3r_4ll}
+``
+</details>
+
+# Phone
+
+Use [pyhton scripts](https://github.com/GuillaumeDupuy/CTF/blob/main/CTFLearn/scripts/phone.py) and scan the QR Code output
+
+<details>
+<summary markdown="span">Answer</summary>
+
+flag :``
+CTFlearn{DTMF_1s_y0ur_fr13nd}
+``
+</details>

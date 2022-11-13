@@ -42,9 +42,9 @@ If you go to the site and have it inspected, you will see a User-agent.
 
 So now just change your user-agent with `Sup3rS3cr3tAg3nt`:
 
-<img src="files/Network_Conditions.png" alt="User-Agent"/>
+<img src="../files/Network_Conditions.png" alt="User-Agent"/>
 
-<img src="files/User-Agent.png" alt="User-Agent"/>
+<img src="../files/User-Agent.png" alt="User-Agent"/>
 
 Now, you have the referer to `awesomesauce.com`
 
@@ -102,7 +102,7 @@ So now go brut force the website with the file txt :
 gobuster dir -u https://gobustme.ctflearn.com/ -w /home/guill/common.txt
 ```
 
-<img src="files/Gobuster.png" alt="Gobuster"/>
+<img src="../files/Gobuster.png" alt="Gobuster"/>
 
 Now, height page of the website is brute force, let's go check in, the `/flag` is a fake, the real is `/hide`.
 

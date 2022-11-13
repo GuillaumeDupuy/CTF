@@ -198,3 +198,21 @@ flag :``
 flag{-1352854872}
 ``
 </details>
+
+# Lost In The Binary
+
+Use [python scripts](https://github.com/GuillaumeDupuy/CTF/blob/main/CTFLearn/scripts/lost.py)
+
+Recover the output and run the binary with the output :
+
+``sh
+./lost_in_bin 227 115 317 510
+``
+
+<details>
+<summary markdown="span">Answer</summary>
+
+flag :``
+FLAG-21a84f2c7c7fd432edf1686215db05ea
+``
+</details>

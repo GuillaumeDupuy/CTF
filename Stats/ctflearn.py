@@ -51,8 +51,6 @@ data.append("🥇 Ranking: "+rank+"\n")
 data.append("✅ Number of Challenges Finish: 125\n")
 data.append("```\n")
 
-print(data)
-
 if conttemp == data:
     print("No change in README.md")
     exit(0)
