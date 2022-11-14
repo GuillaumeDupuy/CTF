@@ -33,19 +33,19 @@ soup = BeautifulSoup(response.text, "html.parser")
 # Get the name of user
 name = soup.find_all("a", {"class": "profile_link"})
 
-name = name[2].text.strip()
+name = name[3].text.strip()
 
 # Get the number of rank
 rank = soup.find_all("th", {"scope": "row"})
 
-rank = rank[2].text.strip()
+rank = rank[3].text.strip()
 
 rank = rank.split(" ")[1]
 
 # Get the number of points
 points = soup.find_all("td")
 
-points = points[6].text.strip()
+points = points[11].text.strip()
 
 points = points.split("<td>")[0]
 
