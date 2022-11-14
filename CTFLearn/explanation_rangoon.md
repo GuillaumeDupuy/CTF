@@ -1,3 +1,4 @@
+# Solution
 
 The program takes input from command line, which is supposed to be the flag we are looking for.
 

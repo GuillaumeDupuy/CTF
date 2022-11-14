@@ -216,3 +216,43 @@ flag :``
 FLAG-21a84f2c7c7fd432edf1686215db05ea
 ``
 </details>
+
+# Riyadh
+
+<details>
+<summary markdown="span">Full explanation</summary>
+
+[here](https://github.com/GuillaumeDupuy/CTF/blob/main/CTFLearn/explanation_riyadh.md)
+</details>
+
+<details>
+<summary markdown="span">Answer</summary>
+
+flag :``
+CTFlearn{Masmak_Fortress_1865}
+``
+</details>
+
+# Riga
+
+Use [python scripts](https://github.com/GuillaumeDupuy/CTF/blob/main/CTFLearn/scripts/riga.py)
+
+<details>
+<summary markdown="span">Answer</summary>
+
+flag :``
+CTFlearn{Daugava_R1ver_Latv1a}
+``
+</details>
+
+# CTF 6502
+
+Use [python scripts](https://github.com/GuillaumeDupuy/CTF/blob/main/CTFLearn/scripts/ctf.py)
+
+<details>
+<summary markdown="span">Answer</summary>
+
+flag :``
+CTFlearn[H0m3_c0mput3r_r3v0lut10n]
+``
+</details>
