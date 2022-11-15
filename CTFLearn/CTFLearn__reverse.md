@@ -256,3 +256,28 @@ flag :``
 CTFlearn[H0m3_c0mput3r_r3v0lut10n]
 ``
 </details>
+
+# Finish The Flag
+
+Use [python scripts](https://github.com/GuillaumeDupuy/CTF/blob/main/CTFLearn/scripts/finish.py)
+
+So fire the command and you see the start of the flag:
+
+``sh
+./a.out
+``
+Use [python scripts](https://github.com/GuillaumeDupuy/CTF/blob/main/CTFLearn/scripts/finish2.py)
+
+So next, fire the command :
+
+``sh
+gdb a.out -x ./finish2.py
+``
+
+<details>
+<summary markdown="span">Answer</summary>
+
+flag :``
+CTFlearn{QR_v30}
+``
+</details>

@@ -179,3 +179,35 @@ flag :``
 flag{th3_KGB_l0v3s_CTF}
 ``
 </details>
+
+# AndhraPradesh Assembler Chall
+
+Use [One compiler](https://onecompiler.com/assembly/) for compile assembly code and just change the values of the fives constants :
+
+```
+con1 db 0xab  ; C syntax for hex constant
+con2 db 0xcc  ;
+con3 db 0x20
+con4 db 0adh    ; this form for hex constants is popular among assembly language programmers
+con5 db 0bah
+```
+
+<details>
+<summary markdown="span">Answer</summary>
+
+flag :``
+CTFlearn{Hyderabad_Telugu}
+``
+</details>
+
+# Bit by Bit
+
+Use [python scripts](https://github.com/GuillaumeDupuy/CTF/blob/main/CTFLearn/scripts/bitbybit.py)
+
+<details>
+<summary markdown="span">Answer</summary>
+
+flag :``
+CTFlearn{1498952}
+``
+</details>

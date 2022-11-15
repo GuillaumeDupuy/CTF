@@ -36,7 +36,7 @@ name = soup.find("h5", {"class": "text-left font-weight-bold font-primary my-aut
 # Get the number of rank
 rank = soup.find("span", {"class": "font-primary mt-2"}).text.strip()
 
-rank = rank.split("th")[0]
+rank = rank.split("nd")[0]
 
 # Get the number of points
 points = soup.find("div", {"class": "stats mt-3"}).text.strip()
@@ -48,7 +48,7 @@ data = ["```text\n"]
 data.append("🧑‍💻 Name: "+name+"\n")
 data.append("📈 Number Points: "+points+"\n")
 data.append("🥇 Ranking: "+rank+"\n")
-data.append("✅ Number of Challenges Finish: 139\n")
+data.append("✅ Number of Challenges Finish: 143\n")
 data.append("```\n")
 
 if conttemp == data:

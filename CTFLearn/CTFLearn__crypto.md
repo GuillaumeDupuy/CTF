@@ -398,3 +398,16 @@ flag :``
 flag{will_he_be_back}
 ``
 </details>
+
+# Image Editing
+
+Use [python scripts](https://github.com/GuillaumeDupuy/CTF/blob/main/CTFLearn/scripts/img.py)
+
+<details>
+
+<summary markdown="span">Answer</summary>
+
+flag :``
+CTFlearn{1_kn3W_tH3_r3D_w4s_0ff}
+``
+</details>
