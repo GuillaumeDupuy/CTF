@@ -411,3 +411,37 @@ flag :``
 CTFlearn{1_kn3W_tH3_r3D_w4s_0ff}
 ``
 </details>
+
+# The Safest Encryption
+
+Use [python scripts](https://github.com/GuillaumeDupuy/CTF/blob/main/CTFLearn/scripts/xor.py)
+
+``python
+python xor.py CTFlearn.pdf CTFlearn.txt output.pdf
+``
+
+<details>
+
+<summary markdown="span">Answer</summary>
+
+flag :``
+CTFlearn{CTFlearn_is_fun_hope_you_enjoyed_it!}
+``
+</details>
+
+# Zippy.zip
+
+Use [python scripts](https://github.com/GuillaumeDupuy/CTF/blob/main/CTFLearn/scripts/zip.py) on Python2
+
+``python
+python2 zip.py
+``
+
+<details>
+
+<summary markdown="span">Answer</summary>
+
+flag :``
+CTFlearn{s0m3t1m35_u$1ng_h4rd_p4s5w0rd_i5_n0t_3n0ugh}
+``
+</details>
