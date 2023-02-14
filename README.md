@@ -34,8 +34,10 @@ Certainly these are solutions but these remain mine. Trying to succeed on your o
 <!--CTFLEARN-->
 ```text
 🧑‍💻 Name: Varius93
-📈 Number Points: 7390 
-🥇 Ranking: 32
+📈 Number Points: 7490 
+🥇 Ranking: 31st place
+                        ·
+                        125 days
 ✅ Number of Challenges Finish: 143
 ```
 <!--/CTFLEARN-->
