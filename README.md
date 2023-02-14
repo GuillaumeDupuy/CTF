@@ -47,8 +47,8 @@ Certainly these are solutions but these remain mine. Trying to succeed on your o
 <!--42CTF-->
 ```text
 🧑‍💻 Name: Varius
-📈 Number Points: 340
-🥇 Ranking: 44
+📈 Number Points: 310
+🥇 Ranking: 51
 ✅ Number of Challenges Finish: 21
 ```
 <!--/42CTF-->
@@ -61,7 +61,7 @@ Certainly these are solutions but these remain mine. Trying to succeed on your o
 ```text
 🧑‍💻 Name: Varius
 📈 Number Points: 325
-🥇 Ranking: 37787
+🥇 Ranking: 36141
 ✅ Number of Challenges Finish: 17
 ```
 <!--/ROOTME-->
