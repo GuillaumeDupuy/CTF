@@ -445,3 +445,37 @@ flag :``
 CTFlearn{s0m3t1m35_u$1ng_h4rd_p4s5w0rd_i5_n0t_3n0ugh}
 ``
 </details>
+
+# Defying Hell
+
+Use [python scripts](https://github.com/GuillaumeDupuy/CTF/blob/main/CTFLearn/scripts/deffie.py)
+
+``python
+python2 zip.py
+``
+
+<details>
+
+<summary markdown="span">Answer</summary>
+
+flag :``
+CTFlearn{H3ll0_Fr13nd}
+``
+</details>
+
+# The Most Secured Crypto-Channel
+
+Use [python scripts](https://github.com/GuillaumeDupuy/CTF/blob/main/CTFLearn/scripts/crypto.py)
+
+``python
+python2 zip.py
+``
+
+<details>
+
+<summary markdown="span">Answer</summary>
+
+flag :``
+Flag{Qu4n7umCryp70gr4phyIs4Fu7ur3}
+``
+</details>

@@ -281,3 +281,19 @@ flag :``
 CTFlearn{QR_v30}
 ``
 </details>
+
+# The Super Secure Service
+
+<details>
+<summary markdown="span">Full explanation</summary>
+
+[here](https://github.com/GuillaumeDupuy/CTF/blob/main/CTFLearn/explanation_super_secure.md)
+</details>
+
+<details>
+<summary markdown="span">Answer</summary>
+
+flag :``
+flag{7631_pR0_0BfuSc4t1on_a3Bn9cQWv}
+``
+</details>
