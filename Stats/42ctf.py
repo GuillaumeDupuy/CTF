@@ -45,7 +45,7 @@ rank = rank.split(" ")[1]
 # Get the number of points
 points = soup.find_all("td")
 
-points = points[32].text.strip()
+points = points[35].text.strip()
 
 points = points.split("<td>")[0]
 
