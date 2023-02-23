@@ -226,3 +226,18 @@ flag :``
 FLAG{Ch4ll4ng3-5UcC33D3d-c0nt1nUe!}
 ``
 </details>
+
+# Q's Cubes
+
+Use [matlab scripts](https://github.com/GuillaumeDupuy/CTF/blob/main/CTFLearn/scripts/q's-cube.m) with the [cipher.txt](https://github.com/GuillaumeDupuy/CTF/blob/main/CTFLearn/scripts/cipher.txt)
+
+Use [Matlab Mathworks](https://matlab.mathworks.com/) for compile matlab code 
+PS : you need a university or professional email for access to the trial version
+
+<details>
+<summary markdown="span">Answer</summary>
+
+flag :``
+If origami is the art of paper folding, maybe cubigami is the art of cube folding? Perhaps you should try cubigami as your flag.
+``
+</details>

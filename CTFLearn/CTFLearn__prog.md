@@ -211,3 +211,29 @@ flag :``
 CTFlearn{1498952}
 ``
 </details>
+
+# Antigua 
+
+Use [correction of code](https://github.com/GuillaumeDupuy/CTF/blob/main/CTFLearn/scripts/main.rs)
+
+<details>
+<summary markdown="span">Answer</summary>
+
+flag :``
+CTFlearn{FreeT0wn.P1cadilly}
+``
+</details>
+
+# An Old Image
+
+Use [python scripts](https://github.com/GuillaumeDupuy/CTF/blob/main/CTFLearn/scripts/image.py)
+
+And you obtained a QRcode so you will use an [Barcode Reader](https://products.aspose.app/barcode/recognize#/recognized) to recover the flag.
+
+<details>
+<summary markdown="span">Answer</summary>
+
+flag :``
+CTFlearn{how_can_swapping_columns_hide_a_qr_code}
+``
+</details>
