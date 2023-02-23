@@ -34,9 +34,9 @@ Certainly these are solutions but these remain mine. Trying to succeed on your o
 <!--CTFLEARN-->
 ```text
 🧑‍💻 Name: Varius93
-📈 Number Points: 7850 
-🥇 Ranking: 26
-✅ Number of Challenges Finish: 147
+📈 Number Points: 8100 
+🥇 Ranking: 19
+✅ Number of Challenges Finish: 156
 ```
 <!--/CTFLEARN-->
 
