@@ -62,9 +62,9 @@ ABCTF{Du$t1nS_D0jo}
 
 Use git command
 
-``sh
+```bash
 git log -p
-``
+```
 
 <details>
 <summary markdown="span">Answer</summary>
