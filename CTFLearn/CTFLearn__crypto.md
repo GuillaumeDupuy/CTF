@@ -479,3 +479,47 @@ flag :``
 Flag{Qu4n7umCryp70gr4phyIs4Fu7ur3}
 ``
 </details>
+
+# A secure LCG?
+
+Use [python scripts](https://github.com/GuillaumeDupuy/CTF/blob/main/CTFLearn/scripts/lgc.py)
+
+<details>
+
+<summary markdown="span">Explanation</summary>
+
+1. Learn the rules of modulus operation
+   rule1: (a + b) % p = (a % p + b % p) % p
+   rule2: (a - b) % p = (a % p - b % p) % p
+   rule3: (a * b) % p = (a % p * b % p) % p
+   rule4: (a ^ b) % p = ((a % p) ^ b) % p
+
+2. use the modulus rules to derivation lcg
+   x2 = (a * x1 + c) mod m
+   x3 = (a * x2 + c) mod m
+   
+   x3 - x2 = [(a * x2 + c) mod m] - [(a * x1 + c) mod m]
+   use rule 2:
+   (x3 - x2) mod m = {[(a * x2 + c) mod m] - [(a * x1 + c) mod m]} mod m
+                   = [(a * x2 + c) - (a * x1 + c)] mod m
+                   = (a * x2 - a * x1) mod m
+                   = (a * (x2 - x1)) mod m
+
+3. wo can easily compute the left equality: (x3 - x2) mod m
+   left = (x3 - x2) mod m
+   delta = x2 - x1
+   left = (a * delta) mod m
+   => a * delta = left + k * m
+   => a = (left + k * m) // delta
+      so bruteforce the a (set k = 0, 1, 2, 3, 4...)
+
+</details>
+
+<details>
+
+<summary markdown="span">Answer</summary>
+
+flag :``
+CTFlearn{BR34K_LCG}
+``
+</details>

@@ -39,7 +39,7 @@ CTFlearn{4m_1_4_r3al_h4ck3r_y3t}
 
 # QR Code
 
-Scan the QR Code, recover the string encoded on base64, convert with [Cyberchef](https://gchq.github.io/CyberChef/), recover the string 
+Scan the QR Code, recover the string encoded on base64, convert with [Cyberchef](https://gchq.github.io/CyberChef/), use rot13 in the string on [Dcode](https://www.dcode.fr/chiffre-rot-13) and finally you get the flag
 
 <details>
 
