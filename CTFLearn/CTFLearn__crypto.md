@@ -467,9 +467,9 @@ CTFlearn{H3ll0_Fr13nd}
 
 Use [python scripts](https://github.com/GuillaumeDupuy/CTF/blob/main/CTFLearn/scripts/crypto.py)
 
-``python
+```python
 python2 zip.py
-``
+```
 
 <details>
 
