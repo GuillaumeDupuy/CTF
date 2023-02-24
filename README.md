@@ -47,7 +47,7 @@ Certainly these are solutions but these remain mine. Trying to succeed on your o
 <!--42CTF-->
 ```text
 🧑‍💻 Name: aldubar
-📈 Number Points: 300
+📈 Number Points: 295
 🥇 Ranking: 51
 ✅ Number of Challenges Finish: 21
 ```
