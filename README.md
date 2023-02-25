@@ -26,6 +26,7 @@ Certainly these are solutions but these remain mine. Trying to succeed on your o
 
 - RootMe
   - [Stegano](https://github.com/GuillaumeDupuy/CTF/blob/main/RootMe/RootMe__stegano.md) .
+  - [Crypto](https://github.com/GuillaumeDupuy/CTF/blob/main/RootMe/RootMe__crypto.m) .
 
 ## Statistiques
 
