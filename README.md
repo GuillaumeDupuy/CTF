@@ -34,9 +34,9 @@ Certainly these are solutions but these remain mine. Trying to succeed on your o
 <!--CTFLEARN-->
 ```text
 🧑‍💻 Name: Varius93
-📈 Number Points: 8240 
+📈 Number Points: 8170 
 🥇 Ranking: 18
-✅ Number of Challenges Finish: 159
+✅ Number of Challenges Finish: 157
 ```
 <!--/CTFLEARN-->
 
@@ -60,9 +60,9 @@ Certainly these are solutions but these remain mine. Trying to succeed on your o
 <!--ROOTME-->
 ```text
 🧑‍💻 Name: Varius
-📈 Number Points: 325
-🥇 Ranking: 37896
-✅ Number of Challenges Finish: 17
+📈 Number Points: 340
+🥇 Ranking: 36351
+✅ Number of Challenges Finish: 20
 ```
 <!--/ROOTME-->
 
