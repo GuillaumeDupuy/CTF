@@ -46,8 +46,8 @@ Certainly these are solutions but these remain mine. Trying to succeed on your o
 
 <!--42CTF-->
 ```text
-🧑‍💻 Name: aldubar
-📈 Number Points: 295
+🧑‍💻 Name: JoLMG
+📈 Number Points: 300
 🥇 Ranking: 51
 ✅ Number of Challenges Finish: 21
 ```
@@ -60,9 +60,9 @@ Certainly these are solutions but these remain mine. Trying to succeed on your o
 <!--ROOTME-->
 ```text
 🧑‍💻 Name: Varius
-📈 Number Points: 340
-🥇 Ranking: 36351
-✅ Number of Challenges Finish: 20
+📈 Number Points: 325
+🥇 Ranking: 37896
+✅ Number of Challenges Finish: 17
 ```
 <!--/ROOTME-->
 
