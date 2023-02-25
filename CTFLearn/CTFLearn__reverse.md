@@ -297,3 +297,37 @@ flag :``
 flag{7631_pR0_0BfuSc4t1on_a3Bn9cQWv}
 ``
 </details>
+
+# Rzeszow
+
+Use [python scripts](https://github.com/GuillaumeDupuy/CTF/blob/main/CTFLearn/scripts/rzeszow.py)
+
+<details>
+<summary markdown="span">Full explanation</summary>
+
+[here](https://github.com/GuillaumeDupuy/CTF/blob/main/CTFLearn/explanation_rzeszow.md)
+</details>
+
+<details>
+<summary markdown="span">Answer</summary>
+
+flag :``
+CTFlearn{K0nstancja}
+``
+</details>
+
+# Rio32
+
+<details>
+<summary markdown="span">Full explanation</summary>
+
+[here](https://github.com/GuillaumeDupuy/CTF/blob/main/CTFLearn/explanation_rio32.md)
+</details>
+
+<details>
+<summary markdown="span">Answer</summary>
+
+flag :``
+CTFlearn{+123R10..de..JaneiR0}
+``
+</details>

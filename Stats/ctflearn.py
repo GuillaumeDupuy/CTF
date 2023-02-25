@@ -48,7 +48,7 @@ data = ["```text\n"]
 data.append("🧑‍💻 Name: "+name+"\n")
 data.append("📈 Number Points: "+points+"\n")
 data.append("🥇 Ranking: "+rank+"\n")
-data.append("✅ Number of Challenges Finish: 157\n")
+data.append("✅ Number of Challenges Finish: 159\n")
 data.append("```\n")
 
 if conttemp == data:
